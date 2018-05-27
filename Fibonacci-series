@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int number,j=1,i=0;
+    cin>>number;
+    while(i<number)
+    {
+        i += j;
+        j += i;
+        cout<<i<<" "<<j<<" ";
+    }
+}
